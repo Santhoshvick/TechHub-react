@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Sidebar.css';
 
 const Sidebar = () => {
@@ -8,10 +8,10 @@ const Sidebar = () => {
     <div className="sidebar">
       <ul>
         <li className="sidebar-item">
-          <Link to="/addproduct">Add Product</Link>
+          <NavLink to={"/addproduct"}>Add Product</NavLink>
         </li>
         <li className="sidebar-item">
-          <Link to="/listproduct">List Products</Link>
+          <NavLink to={"/listproduct"}>List Products</NavLink>
         </li>
       </ul>
     </div>
