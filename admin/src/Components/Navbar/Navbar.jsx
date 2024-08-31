@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import './Navbar.css';
-import imglogo from '../../assets/Layer 0 Frame.png'
+import imglogo from '../../assets/arrow.png'
 
 const Navbar = () => {
   return (
