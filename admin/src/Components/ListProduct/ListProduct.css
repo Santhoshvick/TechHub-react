@@ -1,0 +1,95 @@
+/* ListProduct.css */
+
+.listproduct {
+    margin-top: 110px;
+    margin-left: 130px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px; /* Limit the width for better readability */
+   /* Center the container */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .listproduct-format-main {
+    display: grid;
+    grid-template-columns: 50px 1fr 100px 100px 150px 50px; /* Define column sizes */
+    padding: 10px 0;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .header-product, .header-title, .header-old-price, .header-new-price, .header-category, .header-delete {
+    text-align: center; /* Center align headers */
+  }
+  
+  .listproduct-allproducts {
+    margin-top: 20px;
+  }
+  
+  .listproduct-format {
+    display: grid;
+    grid-template-columns: 50px 1fr 100px 100px 150px 50px; /* Match the header layout */
+    align-items: center; /* Center items vertically */
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0; /* Space between products */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .listproduct-format:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .listproduct-product-icon {
+    width: 50px; /* Fixed width for images */
+    height: 50px; /* Fixed height for images */
+    border-radius: 4px; /* Slightly rounded corners */
+     /* Space between image and text */
+  }
+  
+  .product-name {
+    text-align: left; /* Align name to the left */
+    padding-left: 10px; 
+    margin-left: 330px;/* Add padding for spacing */
+  }
+  
+  .old-price {
+    color: #888; /* Old price color */
+    text-decoration: line-through; /* Strike-through for old price */
+    text-align: center; /* Center align */
+  }
+  
+  .new-price {
+    color: #28a745; /* New price color */
+    font-weight: bold; /* Emphasize new price */
+    text-align: center; /* Center align */
+  }
+  
+  .product-category {
+    text-align: center; /* Center align */
+  }
+  
+  .listproduct-remove-icon {
+    width: 24px; /* Fixed width for the remove icon */
+    height: 24px; /* Fixed height for the remove icon */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: color 0.2s; /* Smooth color transition */
+  }
+  
+  .listproduct-remove-icon:hover {
+    color: #f44336; /* Change color on hover */
+  }
+  
+  hr {
+    border: 1px solid #ddd; /* Styling for the horizontal rule */
+  }

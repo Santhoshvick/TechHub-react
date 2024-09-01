@@ -51,7 +51,7 @@ const AddProduct = () => {
     <div className='add-product'>
         <div className="addproduct-itemfield">
             <p>Product Name</p>
-            <input value={productdDetails.name} onChange={productHandler} type='text' placeholder='type-here' name='name'></input>
+            <input value={productdDetails.name} onChange={productHandler} type='text' placeholder='' name='name'></input>
          </div>
          <div className="addproduct-price">
             <div className="addproduct-itemfields">
